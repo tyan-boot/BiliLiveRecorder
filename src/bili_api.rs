@@ -1,7 +1,7 @@
 use anyhow::Result;
 use serde::{Deserialize};
 
-
+#[derive(Clone, Debug)]
 pub struct BiliApi {
     room_id: u32
 }
